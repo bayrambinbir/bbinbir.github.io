@@ -12,14 +12,14 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "default"  # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Bayram Binbir"
+title                    : "Site Title"
 title_separator          : "-"
-name                     : "Bayram Binbir"
-description              : "Software Development Engineer in Testing"
+name                     : "Your Name"
+description              : "An amazing website."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -100,10 +100,10 @@ analytics:
 
 # Site Author
 author:
-  name             : "Bayram Binbir"
+  name             : "Your Name"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Software Development Engineer in Testing"
-  location         : "Austin, Texas"
+  bio              : "I am an amazing person."
+  location         : "Somewhere"
   email            :
   uri              :
   home             : # null (default), "absolute or relative url to link to author home"
@@ -113,7 +113,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "bbinbir"
+  github           :
   gitlab           :
   google_plus      :
   keybase          :
@@ -259,21 +259,15 @@ compress_html:
 # Defaults
 defaults:
   # _posts
-     scope:
+  - scope:
       path: ""
       type: posts
     values:
-    layout: single
-   author_profile: true
+      layout: single
+      author_profile: true
       read_time: true
-      comments:  # true
+      comments: # true
       share: true
       related: true
 
-   # _pages
-      scope:
-      path: ""
-      type: posts
-    values:
-    layout: single
-    author_profile: true
+
